@@ -1,0 +1,122 @@
+.add_item{
+  position: relative;
+  justify-content: space-between;
+
+
+}
+.add_item input{
+    height: 5vh;
+    width: 27vw;
+    margin-top: 1.2rem;
+    border-radius: 0.4rem;
+    padding:1.2rem;
+    line-height: 1.2rem;
+    color: rgb(58, 57, 57);
+    background-color: #fff;
+    background-image: none;
+    border: 0.1rem solid #ccc;
+}
+
+input,
+input:focus,
+input:active,
+input:active:focus {
+  border: none;
+  padding: 1.3rem;
+  outline: none;
+}
+
+input {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  input:focus {
+    -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+  }
+
+
+  .plus_btn{
+     color: #666;
+     position: absolute;
+     top: 26px;
+    right: 14px;
+     /* margin-left: -2rem; */
+  }
+  .plus_btn:hover {
+    color: rgb(47, 214, 122);
+    
+  }
+ 
+
+  /* list item and delete btn styling start */
+  .list_items{
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+.item{ 
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        margin-bottom: 0.7rem;
+        /* margin-left: 1rem; */
+        width: 27vw;
+        height: 5vh;
+        padding: 1.2rem ;
+        /* word-break: break-word; */
+        background: rgb(85, 41, 220);
+        align-items: center; 
+        border-radius: 0.4rem;
+        line-height: 1.2rem;
+        border: 0.1rem solid #ccc;
+}
+
+.item .h3{
+  /* padding-left: 1rem; */
+  font-size: 1.2rem;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.item:hover {
+    background: rgb(249, 249, 252);
+    
+  }
+
+  .item:hover .h3{
+    color:rgb(85, 41, 220) ;
+  }
+  
+  .delet_btn{
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 1;
+    height: fit-content;
+    background-color: none;
+    color: #fff;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+    font-size: 2rem;
+    margin-left: -3.5rem;
+  }
+
+  .item:hover .delet_btn {
+    color: rgb(214, 61, 47);
+  }
+
+
+  /* login form styling */
+ 
+  input, input:focus, 
+  input:active, 
+  input:active:focus {
+    border: none;
+    padding: 0.5rem !important;
+    outline: none;
+}
+ 
+
+

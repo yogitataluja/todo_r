@@ -1,0 +1,24 @@
+.main_div {
+    height:100vh;
+    background: #060822;
+    display: flex;
+    justify-content: center;
+   }
+  
+.child_div{
+    text-align: center;
+    margin-top: 12rem;
+}
+.child_div figure img {
+    width: 10rem;
+    height: 5rem;
+  }
+
+  .child_div figure figcaption {
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing:0.2rem;
+  }
+
+  
